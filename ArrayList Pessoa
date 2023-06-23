@@ -1,0 +1,17 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class ImplArrayListPessoa {
+	public static void main(String[] args) {
+		ArrayList<Pessoa> lista = new ArrayList<Pessoa>(10);
+
+		lista.add(new Pessoa("Igor", 30));
+		lista.add(new Pessoa("Diogo", 23));
+		lista.add(new Pessoa("André", 34));
+		lista.add(new Pessoa("Alexandre", 23));
+		for (Pessoa pessoa : lista) {
+			System.out.println(pessoa);
+		}
+	}
+}
