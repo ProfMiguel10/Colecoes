@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+
+public class Pilha {
+
+	public static void main(String[] args) {
+		LinkedList<String> pilha = new LinkedList<String>();
+		pilha.push("Amilton");
+		pilha.push("Igor");
+		pilha.push("Diogo");
+		pilha.push("Stella");
+		int tam = pilha.size();
+		for (int i = 0; i < tam; i++) {
+			System.out.println(pilha.pop());
+		}
+	}
+}
